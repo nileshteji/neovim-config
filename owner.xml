@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<owner>
+    <personal_info>
+        <name>Nilesh Teji</name>
+        <username>nileshteji</username>
+        <email>nilesh@example.com</email>
+        <github>https://github.com/nileshteji</github>
+        <role>Developer</role>
+    </personal_info>
+    
+    <project_info>
+        <project_name>Neovim Configuration</project_name>
+        <description>Personal Neovim configuration and dotfiles</description>
+        <created_date>2025-09-06</created_date>
+        <version>1.0.0</version>
+        <license>MIT</license>
+    </project_info>
+    
+    <system_info>
+        <platform>MacOS</platform>
+        <shell>zsh</shell>
+        <editor>Neovim</editor>
+        <home_directory>/Users/nileshteji</home_directory>
+        <config_path>/Users/nileshteji/Developer/neovim-config</config_path>
+    </system_info>
+    
+    <preferences>
+        <theme>dark</theme>
+        <font_family>JetBrains Mono</font_family>
+        <font_size>14</font_size>
+        <tab_size>4</tab_size>
+        <line_numbers>true</line_numbers>
+        <word_wrap>false</word_wrap>
+    </preferences>
+    
+    <plugins>
+        <plugin name="telescope" enabled="true" />
+        <plugin name="treesitter" enabled="true" />
+        <plugin name="lsp" enabled="true" />
+        <plugin name="cmp" enabled="true" />
+        <plugin name="gitsigns" enabled="true" />
+    </plugins>
+    
+    <keybindings>
+        <leader_key>space</leader_key>
+        <custom_mappings>
+            <mapping key="<leader>ff" action="find_files" />
+            <mapping key="<leader>fg" action="live_grep" />
+            <mapping key="<leader>fb" action="buffers" />
+            <mapping key="<leader>fh" action="help_tags" />
+        </custom_mappings>
+    </keybindings>
+    
+    <maintenance>
+        <last_updated>2025-09-06T09:40:27Z</last_updated>
+        <backup_location>~/dotfiles-backup</backup_location>
+        <auto_update>false</auto_update>
+    </maintenance>
+</owner>
