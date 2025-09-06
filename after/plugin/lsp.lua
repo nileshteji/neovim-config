@@ -4,8 +4,6 @@ lsp.preset("recommended")
 
 lsp.ensure_installed({
     'kotlin_language_server',
-    'swift_mesonls',
-    'tsserver',
     'rust_analyzer',
 })
 
